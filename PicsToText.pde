@@ -14,18 +14,25 @@ import java.util.Calendar;
 import gifAnimation.*;
 
 //String inputText ="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?";
-String inputText="Hat der alte Hexenmeister Sich doch einmal wegbegeben! Und nun sollen seine Geister Auch nach meinem Willen leben. Seine Wort' und Werke Merkt ich und den Brauch, Und mit Geistesstärke Tu' ich Wunder auch.";
+//String inputText="Hat der alte Hexenmeister Sich doch einmal wegbegeben! Und nun sollen seine Geister Auch nach meinem Willen leben. Seine Wort' und Werke Merkt ich und den Brauch, Und mit Geistesstärke Tu' ich Wunder auch.Hat der alte Hexenmeister Sich doch einmal wegbegeben! Und nun sollen seine Geister Auch nach meinem Willen leben. Seine Wort' und Werke Merkt ich und den Brauch, Und mit Geistesstärke Tu' ich Wunder auch.Hat der alte Hexenmeister Sich doch einmal wegbegeben! Und nun sollen seine Geister Auch nach meinem Willen leben. Seine Wort' und Werke Merkt ich und den Brauch, Und mit Geistesstärke Tu' ich Wunder auch.Hat der alte Hexenmeister Sich doch einmal wegbegeben! Und nun sollen seine Geister Auch nach meinem Willen leben. Seine Wort' und Werke Merkt ich und den Brauch, Und mit Geistesstärke Tu' ich Wunder auch.Hat der alte Hexenmeister Sich doch einmal wegbegeben! Und nun sollen seine Geister Auch nach meinem Willen leben. Seine Wort' und Werke Merkt ich und den Brauch, Und mit Geistesstärke Tu' ich Wunder auch.Hat der alte Hexenmeister Sich doch einmal wegbegeben! Und nun sollen seine Geister Auch nach meinem Willen leben. Seine Wort' und Werke Merkt ich und den Brauch, Und mit Geistesstärke Tu' ich Wunder auch.Hat der alte Hexenmeister Sich doch einmal wegbegeben! Und nun sollen seine Geister Auch nach meinem Willen leben. Seine Wort' und Werke Merkt ich und den Brauch, Und mit Geistesstärke Tu' ich Wunder auch.Hat der alte Hexenmeister Sich doch einmal wegbegeben! Und nun sollen seine Geister Auch nach meinem Willen leben. Seine Wort' und Werke Merkt ich und den Brauch, Und mit Geistesstärke Tu' ich Wunder auch.Hat der alte Hexenmeister Sich doch einmal wegbegeben! Und nun sollen seine Geister Auch nach meinem Willen leben. Seine Wort' und Werke Merkt ich und den Brauch, Und mit Geistesstärke Tu' ich Wunder auch.Hat der alte Hexenmeister Sich doch einmal wegbegeben! Und nun sollen seine Geister Auch nach meinem Willen leben. Seine Wort' und Werke Merkt ich und den Brauch, Und mit Geistesstärke Tu' ich Wunder auch.Hat der alte Hexenmeister Sich doch einmal wegbegeben! Und nun sollen seine Geister Auch nach meinem Willen leben. Seine Wort' und Werke Merkt ich und den Brauch, Und mit Geistesstärke Tu' ich Wunder auch.Hat der alte Hexenmeister Sich doch einmal wegbegeben! Und nun sollen seine Geister Auch nach meinem Willen leben. Seine Wort' und Werke Merkt ich und den Brauch, Und mit Geistesstärke Tu' ich Wunder auch.Hat der alte Hexenmeister Sich doch einmal wegbegeben! Und nun sollen seine Geister Auch nach meinem Willen leben. Seine Wort' und Werke Merkt ich und den Brauch, Und mit Geistesstärke Tu' ich Wunder auch.Hat der alte Hexenmeister Sich doch einmal wegbegeben! Und nun sollen seine Geister Auch nach meinem Willen leben. Seine Wort' und Werke Merkt ich und den Brauch, Und mit Geistesstärke Tu' ich Wunder auch.Hat der alte Hexenmeister Sich doch einmal wegbegeben! Und nun sollen seine Geister Auch nach meinem Willen leben. Seine Wort' und Werke Merkt ich und den Brauch, Und mit Geistesstärke Tu' ich Wunder auch.Hat der alte Hexenmeister Sich doch einmal wegbegeben! Und nun sollen seine Geister Auch nach meinem Willen leben. Seine Wort' und Werke Merkt ich und den Brauch, Und mit Geistesstärke Tu' ich Wunder auch.Hat der alte Hexenmeister Sich doch einmal wegbegeben! Und nun sollen seine Geister Auch nach meinem Willen leben. Seine Wort' und Werke Merkt ich und den Brauch, Und mit Geistesstärke Tu' ich Wunder auch.Hat der alte Hexenmeister Sich doch einmal wegbegeben! Und nun sollen seine Geister Auch nach meinem Willen leben. Seine Wort' und Werke Merkt ich und den Brauch, Und mit Geistesstärke Tu' ich Wunder auch.Hat der alte Hexenmeister Sich doch einmal wegbegeben! Und nun sollen seine Geister Auch nach meinem Willen leben. Seine Wort' und Werke Merkt ich und den Brauch, Und mit Geistesstärke Tu' ich Wunder auch.Hat der alte Hexenmeister Sich doch einmal wegbegeben! Und nun sollen seine Geister Auch nach meinem Willen leben. Seine Wort' und Werke Merkt ich und den Brauch, Und mit Geistesstärke Tu' ich Wunder auch.Hat der alte Hexenmeister Sich doch einmal wegbegeben! Und nun sollen seine Geister Auch nach meinem Willen leben. Seine Wort' und Werke Merkt ich und den Brauch, Und mit Geistesstärke Tu' ich Wunder auch.Hat der alte Hexenmeister Sich doch einmal wegbegeben! Und nun sollen seine Geister Auch nach meinem Willen leben. Seine Wort' und Werke Merkt ich und den Brauch, Und mit Geistesstärke Tu' ich Wunder auch.Hat der alte Hexenmeister Sich doch einmal wegbegeben! Und nun sollen seine Geister Auch nach meinem Willen leben. Seine Wort' und Werke Merkt ich und den Brauch, Und mit Geistesstärke Tu' ich Wunder auch. Hat der alte Hexenmeister Sich doch einmal wegbegeben! Und nun sollen seine Geister Auch nach meinem Willen leben. Seine Wort' und Werke Merkt ich und den Brauch, Und mit Geistesstärke Tu' ich Wunder auch.Hat der alte Hexenmeister Sich doch einmal wegbegeben! Und nun sollen seine Geister Auch nach meinem Willen leben. Seine Wort' und Werke Merkt ich und den Brauch, Und mit Geistesstärke Tu' ich Wunder auch.Hat der alte Hexenmeister Sich doch einmal wegbegeben! Und nun sollen seine Geister Auch nach meinem Willen leben. Seine Wort' und Werke Merkt ich und den Brauch, Und mit Geistesstärke Tu' ich Wunder auch.Hat der alte Hexenmeister Sich doch einmal wegbegeben! Und nun sollen seine Geister Auch nach meinem Willen leben. Seine Wort' und Werke Merkt ich und den Brauch, Und mit Geistesstärke Tu' ich Wunder auch.Hat der alte Hexenmeister Sich doch einmal wegbegeben! Und nun sollen seine Geister Auch nach meinem Willen leben. Seine Wort' und Werke Merkt ich und den Brauch, Und mit Geistesstärke Tu' ich Wunder auch.Hat der alte Hexenmeister Sich doch einmal wegbegeben! Und nun sollen seine Geister Auch nach meinem Willen leben. Seine Wort' und Werke Merkt ich und den Brauch, Und mit Geistesstärke Tu' ich Wunder auch.Hat der alte Hexenmeister Sich doch einmal wegbegeben! Und nun sollen seine Geister Auch nach meinem Willen leben. Seine Wort' und Werke Merkt ich und den Brauch, Und mit Geistesstärke Tu' ich Wunder auch.Hat der alte Hexenmeister Sich doch einmal wegbegeben! Und nun sollen seine Geister Auch nach meinem Willen leben. Seine Wort' und Werke Merkt ich und den Brauch, Und mit Geistesstärke Tu' ich Wunder auch.Hat der alte Hexenmeister Sich doch einmal wegbegeben! Und nun sollen seine Geister Auch nach meinem Willen leben. Seine Wort' und Werke Merkt ich und den Brauch, Und mit Geistesstärke Tu' ich Wunder auch.Hat der alte Hexenmeister Sich doch einmal wegbegeben! Und nun sollen seine Geister Auch nach meinem Willen leben. Seine Wort' und Werke Merkt ich und den Brauch, Und mit Geistesstärke Tu' ich Wunder auch.Hat der alte Hexenmeister Sich doch einmal wegbegeben! Und nun sollen seine Geister Auch nach meinem Willen leben. Seine Wort' und Werke Merkt ich und den Brauch, Und mit Geistesstärke Tu' ich Wunder auch.Hat der alte Hexenmeister Sich doch einmal wegbegeben! Und nun sollen seine Geister Auch nach meinem Willen leben. Seine Wort' und Werke Merkt ich und den Brauch, Und mit Geistesstärke Tu' ich Wunder auch.Hat der alte Hexenmeister Sich doch einmal wegbegeben! Und nun sollen seine Geister Auch nach meinem Willen leben. Seine Wort' und Werke Merkt ich und den Brauch, Und mit Geistesstärke Tu' ich Wunder auch.Hat der alte Hexenmeister Sich doch einmal wegbegeben! Und nun sollen seine Geister Auch nach meinem Willen leben. Seine Wort' und Werke Merkt ich und den Brauch, Und mit Geistesstärke Tu' ich Wunder auch.Hat der alte Hexenmeister Sich doch einmal wegbegeben! Und nun sollen seine Geister Auch nach meinem Willen leben. Seine Wort' und Werke Merkt ich und den Brauch, Und mit Geistesstärke Tu' ich Wunder auch.Hat der alte Hexenmeister Sich doch einmal wegbegeben! Und nun sollen seine Geister Auch nach meinem Willen leben. Seine Wort' und Werke Merkt ich und den Brauch, Und mit Geistesstärke Tu' ich Wunder auch.Hat der alte Hexenmeister Sich doch einmal wegbegeben! Und nun sollen seine Geister Auch nach meinem Willen leben. Seine Wort' und Werke Merkt ich und den Brauch, Und mit Geistesstärke Tu' ich Wunder auch.Hat der alte Hexenmeister Sich doch einmal wegbegeben! Und nun sollen seine Geister Auch nach meinem Willen leben. Seine Wort' und Werke Merkt ich und den Brauch, Und mit Geistesstärke Tu' ich Wunder auch.Hat der alte Hexenmeister Sich doch einmal wegbegeben! Und nun sollen seine Geister Auch nach meinem Willen leben. Seine Wort' und Werke Merkt ich und den Brauch, Und mit Geistesstärke Tu' ich Wunder auch.Hat der alte Hexenmeister Sich doch einmal wegbegeben! Und nun sollen seine Geister Auch nach meinem Willen leben. Seine Wort' und Werke Merkt ich und den Brauch, Und mit Geistesstärke Tu' ich Wunder auch.Hat der alte Hexenmeister Sich doch einmal wegbegeben! Und nun sollen seine Geister Auch nach meinem Willen leben. Seine Wort' und Werke Merkt ich und den Brauch, Und mit Geistesstärke Tu' ich Wunder auch.Hat der alte Hexenmeister Sich doch einmal wegbegeben! Und nun sollen seine Geister Auch nach meinem Willen leben. Seine Wort' und Werke Merkt ich und den Brauch, Und mit Geistesstärke Tu' ich Wunder auch.Hat der alte Hexenmeister Sich doch einmal wegbegeben! Und nun sollen seine Geister Auch nach meinem Willen leben. Seine Wort' und Werke Merkt ich und den Brauch, Und mit Geistesstärke Tu' ich Wunder auch.";
+
+String inputText = "Test j fasdfj as faisfj iasjdfi asjifja sipjf aiädsjfa isjdf iasjfi asjdfiäj asidfj äasdf";
 float fontSizeMax = 20;
 float fontSizeMin = 10;
 float spacing = 12; // line height
-float kerning; // between letters
+float kerning = 0.5; // between letters
 
 boolean fontSizeStatic = false;
 boolean blackAndWhite = false;
 boolean noise = false;
 boolean isGif = false;
 boolean dynamicFontSize = false;
+boolean firstTime = true;
+boolean scrollingText = false;
 int gifPosition = 0;
+int iterationsCounter = 0;
+
+int test;
 
 PFont font;
 PImage img;
@@ -77,7 +84,7 @@ void draw() {
     textAlign(LEFT);
   
     float x = 0, y = 10;
-    int counter = 0;
+    int counter = 0 + iterationsCounter;
   
     while (y < height) {
       // translate position (display) to position (image)
@@ -112,7 +119,7 @@ void draw() {
         float fontSize = map(greyscale, 0, 255, fontSizeMax, fontSizeMin);
         fontSize = max(fontSize, 1);
         textFont(font, fontSize);
-        kerning = 0.02*fontSizeMax;
+        //kerning = 0.02*fontSizeMax;
         if (blackAndWhite) fill(greyscale);
         else fill(c);
       } 
@@ -126,12 +133,31 @@ void draw() {
   
       // linebreaks
       if (x+letterWidth >= width) {
+        test = counter;
         x = 0;
         y = y + spacing; // add line height
       }
-  
-      counter++;
-      if (counter > inputText.length()-1) counter = 0;
+    
+      if(firstTime){
+        counter++;
+        if ((counter > inputText.length()-1)) counter = 0;
+      }
+      else
+      {
+        if (!(counter > inputText.length()-1)) counter++;
+        if ((counter > inputText.length()-1)) y=height;
+      }
+    }
+    
+    delay(100);
+    if(scrollingText){
+      firstTime = false;
+      iterationsCounter++;
+      if (iterationsCounter > inputText.length()-1) iterationsCounter = 0;
+    }
+    else
+    {
+      firstTime = true;
     }
     
     if(isGif){
@@ -141,8 +167,8 @@ void draw() {
     
     if(dynamicFontSize)
     {      
-      fontSizeMax += random(-0.1, 0.1);
-      fontSizeMin += random(-0.1, 0.1);
+      fontSizeMax += random(-1, 1);
+      fontSizeMin += random(-1, 1);
     }
   }
 }
@@ -157,9 +183,10 @@ void keyReleased() {
   //change noise DOESNT WORK WITH 1/2
   if (key == '3') noise = !noise;
   if (key == '4') dynamicFontSize = !dynamicFontSize;
+  if (key == '5') scrollingText = !scrollingText;
   if (key == 'f') selectInput("Select a file to process:", "fileSelected");
   
-  println("fontSizeMin: "+fontSizeMin+"  fontSizeMax: "+fontSizeMax+"   fontSizeStatic: "+fontSizeStatic+"   blackAndWhite: "+blackAndWhite+"   noise: "+noise+"   dynamicFontSize: "+dynamicFontSize);
+  println("fontSizeMin: "+fontSizeMin+"  fontSizeMax: "+fontSizeMax+"   fontSizeStatic: "+fontSizeStatic+"   blackAndWhite: "+blackAndWhite+"   noise: "+noise+"   dynamicFontSize: "+dynamicFontSize+"   scrollingText: "+scrollingText);
 }
 
 void keyPressed() {
