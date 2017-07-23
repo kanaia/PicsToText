@@ -1,9 +1,0 @@
-Variablen:
-x, y - Anfangspunkt für draw, y = 10 wegen großer Font oben im Bild; für Zeilenumbruch benutzt
-counter - die Stelle des Pointers im Input-String (wird 0 gesetzt bei Ende)
-imgX, imgY - die Stelle des Pointers im Bild
-c - die farbe des pixels
-greyscale - zieht die Farben aus der color-variablen des pixels und rechnet auf graustufe
-fontSize - mapped die Greyscale auf die resultierende schriftgröße des pixels, je dunkler desto größer
-
-
