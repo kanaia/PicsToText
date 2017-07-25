@@ -7,20 +7,22 @@ float fontSizeMax = 20;
 float fontSizeMin = 10;
 float spacing = 12; // line height
 float kerning = 0.5; // between letters
-String inputText = "start";
+String inputText = "start"; // don't change this!!!
 
 boolean fontSizeStatic = false;
 boolean blackAndWhite = false;
 boolean noise = false;
 boolean isGif = false;
-boolean dynamicFontSize = false;
 boolean firstTime = true;
 boolean scrollingText = false;
 boolean saveGif = false;
 boolean startSaveGif = false;
+
 int delay = 0; 
 int gifPosition = 0; // Position for GIF Frames
 int iterationsCounter = 0; // Counting all used characters for scrolling text mode
+int counter = 0;
+float x = 0, y = 10;
 
 PFont font;
 PImage img;
@@ -28,6 +30,7 @@ PImage[] imgGif;
 GifMaker gifExport;
 
 int greyscale;
+int background_color = 255; // 0-255
 int imgX;
 int imgY;
 color c;
@@ -79,12 +82,12 @@ private static String getFileExtension(File file) {
 
 void draw() {
   if((img != null || imgGif != null) && !inputText.equals("start")){
-    background(255);
+    background(background_color);
     textAlign(LEFT);
     delay(delay);
   
-    float x = 0, y = 10;
-    int counter = 0 + iterationsCounter;
+    x = 0; y = 10;
+    counter = 0 + iterationsCounter;
   
     while (y < height) {
       // translate position (display) to position (image)
@@ -111,7 +114,6 @@ void draw() {
   
       if (fontSizeStatic) {
         textFont(font, fontSizeMax);
-        kerning = 0.02*fontSizeMax;
         if (blackAndWhite) fill(greyscale);
         else fill(c);
       } 
@@ -120,7 +122,6 @@ void draw() {
         float fontSize = map(greyscale, 0, 255, fontSizeMax, fontSizeMin);
         fontSize = max(fontSize, 1);
         textFont(font, fontSize);
-        //kerning = 0.02*fontSizeMax;
         if (blackAndWhite) fill(greyscale);
         else fill(c);
       } 
@@ -159,13 +160,6 @@ void draw() {
     else
     {
       firstTime = true;
-    }
-    
-    //Dynamic Font Size Mode
-    if(dynamicFontSize)
-    {      
-      fontSizeMax += random(-1, 1);
-      fontSizeMin += random(-1, 1);
     }
     
     //Save GIF
@@ -214,21 +208,20 @@ void keyReleased() {
   if (key == '2') blackAndWhite = !blackAndWhite;
   //change noise DOESNT WORK WITH 1/2
   if (key == '3') noise = !noise;
-  if (key == '4') dynamicFontSize = !dynamicFontSize;
-  if (key == '5') scrollingText = !scrollingText;
+  if (key == '4') scrollingText = !scrollingText;
   if (key == 'f') selectInput("Select a image to process:", "fileSelected");
-  if (key == 't') selectInput("Select a textfile to process:", "fileSelected");
   
-  println("fontSizeMin: "+fontSizeMin+"  fontSizeMax: "+fontSizeMax+"   fontSizeStatic: "+fontSizeStatic+"   blackAndWhite: "+blackAndWhite+"   noise: "+noise+"   dynamicFontSize: "+dynamicFontSize+"   scrollingText: "+scrollingText+"   delay: "+delay);
+  println("fontSizeMin: "+fontSizeMin+"  fontSizeMax: "+fontSizeMax+"   fontSizeStatic: "+fontSizeStatic+"   blackAndWhite: "+blackAndWhite+"   noise: "+noise+"   scrollingText: "+scrollingText+"   delay: "+delay);
 }
 
 void keyPressed() {
   // change fontSizeMax with arrowkeys up/down 
   if (keyCode == UP) fontSizeMax += 2;
-  if (keyCode == DOWN) fontSizeMax -= 2; 
+  if (keyCode == DOWN) if(fontSizeMax-2 > 0) fontSizeMax -= 2; 
   // change fontSizeMin with arrowkeys left/right
   if (keyCode == RIGHT) fontSizeMin += 2;
-  if (keyCode == LEFT) fontSizeMin -= 2; 
+  if (keyCode == LEFT) if(fontSizeMin-2 > 0)fontSizeMin -= 2; 
+  // change delay with d/e
   if (key == 'd') delay += 10;
   if (key == 'e') if(delay > 0) delay -= 10;
 }
